@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(120deg, #33aebe, #38184C);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* -------MAIN */
+
+.contanier {
+    background-color: #ffffff;
+    width: 19rem;
+    height: 30rem;
+    border-radius: 1.2rem;
+    margin:auto;
+    padding: 1rem;
+}
+
+.contanier img {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.contanier h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #1f3251;
+    margin-bottom: 1rem;
+}
+
+.contanier p {
+    font-weight: 300;
+    text-align: center;
+    color: #1f3251;
+    margin-bottom: 1rem;
+}
+
+/* ------------------FOOTER */
+.roda-pe {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;
+}
+
+.roda-pe a {
+    color: #fff;
+  }
+
+.roda-pe a:hover{
+    color: hsl(228, 45%, 44%);
+}
